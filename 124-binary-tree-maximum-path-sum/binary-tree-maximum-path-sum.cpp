@@ -11,8 +11,8 @@
  */
 class Solution {
 public:
-    int ans = INT_MIN;
 
+    int ans = INT_MIN;
     int solve(TreeNode* root) {
         if (!root) return 0;
 
